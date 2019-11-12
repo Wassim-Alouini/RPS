@@ -3,37 +3,37 @@
     height: 120px;
 }
 .rock{
-    background-image:url("https://ibb.co/thTZb1C");
+    background-image:url("https://i.ibb.co/Ct3JnS0/Rock.png");
     background-size:contain;
     transition:0.4s;
     cursor: pointer;
 }
 .rock:hover{
-    background-image:url("https://ibb.co/gwfPb2d");
+    background-image:url("https://i.ibb.co/QnTC7gk/RockHov.png");
     width:130px;
     height:130px;
     box-shadow: 5px 8px 2px gray;
 }
 .paper{
-    background-image:url("https://ibb.co/1vXzDXm");
+    background-image:url("https://i.ibb.co/PmWD7W6/Paper.png");
     background-size:contain;
     transition:0.4s;
     cursor: pointer;
 }
 .paper:hover{
-    background-image:url("https://ibb.co/Rp6nzpV");
+    background-image:url("https://i.ibb.co/KjsZFj3/Paperhov.png");
     width:130px;
     height:130px;
     box-shadow: 5px 8px 2px gray;
 }
 .scissors{
-    background-image:url("https://ibb.co/RjKgyVW");
+    background-image:url("https://i.ibb.co/tL6HXW5/Scissors.png");
     background-size:contain;
     transition:0.4s;
     cursor: pointer;
 }
 .scissors:hover{
-    background-image:url("https://ibb.co/82tkJdZ");
+    background-image:url("https://i.ibb.co/pZ5qgRF/Scissorshov.png");
     width:130px;
     height:130px;
     box-shadow: 5px 8px 2px gray;
@@ -50,7 +50,7 @@
 #dis{
     width:120px;
     height:120px;
-    background-image:url("https://ibb.co/zmfkNL1");
+    background-image:url("https://i.ibb.co/K5y1mQY/questionmark.jpg");
     background-size:contain;
     background-repeat:no-repeat;
 }

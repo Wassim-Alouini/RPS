@@ -1,0 +1,65 @@
+.cards{
+    width:120px;
+    height: 120px;
+}
+.rock{
+    background-image:url("res\Rock.png");
+    background-size:contain;
+    transition:0.4s;
+    cursor: pointer;
+}
+.rock:hover{
+    background-image:url("res\RockHov.png");
+    width:130px;
+    height:130px;
+    box-shadow: 5px 8px 2px gray;
+}
+.paper{
+    background-image:url("res\Paper.png");
+    background-size:contain;
+    transition:0.4s;
+    cursor: pointer;
+}
+.paper:hover{
+    background-image:url("res\Paperhov.png");
+    width:130px;
+    height:130px;
+    box-shadow: 5px 8px 2px gray;
+}
+.scissors{
+    background-image:url("res\Scissors.png");
+    background-size:contain;
+    transition:0.4s;
+    cursor: pointer;
+}
+.scissors:hover{
+    background-image:url("res\Scissorshov.png");
+    width:130px;
+    height:130px;
+    box-shadow: 5px 8px 2px gray;
+}
+.player{
+    position:absolute;
+    bottom:30px;
+    height:200px;
+    width:99.5vw;
+    display:flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+}
+#dis{
+    width:120px;
+    height:120px;
+    background-image:url("res\questionmark.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.computer{
+    width:99.5vw;
+    display:grid;
+    grid-template-columns:"1fr";
+    grid-template-rows:"1fr 1fr";
+    grid-template-areas:"a"
+                        "b";
+    justify-items: center;
+}

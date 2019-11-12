@@ -3,37 +3,37 @@
     height: 120px;
 }
 .rock{
-    background-image:url("res\Rock.png");
+    background-image:url("https://ibb.co/thTZb1C");
     background-size:contain;
     transition:0.4s;
     cursor: pointer;
 }
 .rock:hover{
-    background-image:url("res\RockHov.png");
+    background-image:url("https://ibb.co/gwfPb2d");
     width:130px;
     height:130px;
     box-shadow: 5px 8px 2px gray;
 }
 .paper{
-    background-image:url("res\Paper.png");
+    background-image:url("https://ibb.co/1vXzDXm");
     background-size:contain;
     transition:0.4s;
     cursor: pointer;
 }
 .paper:hover{
-    background-image:url("res\Paperhov.png");
+    background-image:url("https://ibb.co/Rp6nzpV");
     width:130px;
     height:130px;
     box-shadow: 5px 8px 2px gray;
 }
 .scissors{
-    background-image:url("res\Scissors.png");
+    background-image:url("https://ibb.co/RjKgyVW");
     background-size:contain;
     transition:0.4s;
     cursor: pointer;
 }
 .scissors:hover{
-    background-image:url("res\Scissorshov.png");
+    background-image:url("https://ibb.co/82tkJdZ");
     width:130px;
     height:130px;
     box-shadow: 5px 8px 2px gray;
@@ -50,7 +50,7 @@
 #dis{
     width:120px;
     height:120px;
-    background-image:url("res\questionmark.jpg");
+    background-image:url("https://ibb.co/zmfkNL1");
     background-size:contain;
     background-repeat:no-repeat;
 }

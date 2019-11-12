@@ -20,9 +20,9 @@ function setToPaper(){
 function match(){
     let choice = Math.floor(Math.random()* 3)
     choice = choice + 1 ;
-    if (choice == 1){document.getElementById("dis").style.backgroundImage = "url('res\Rock.png')"}
-    else if (choice ==2){document.getElementById("dis").style.backgroundImage = "url('res\Paper.png')"}
-    else if (choice == 3){document.getElementById("dis").style.backgroundImage = "url('res\Scissors.png')"}
+    if (choice == 1){document.getElementById("dis").style.backgroundImage = "url('https://i.ibb.co/Ct3JnS0/Rock.png')"}
+    else if (choice ==2){document.getElementById("dis").style.backgroundImage = "url('https://i.ibb.co/PmWD7W6/Paper.png')"}
+    else if (choice == 3){document.getElementById("dis").style.backgroundImage = "url('https://i.ibb.co/tL6HXW5/Scissors.png')"}
     
     console.log(log);
     setTimeout(function(){
